@@ -1,4 +1,4 @@
-![Banner](assets/banner.gif)
+![Banner](img/banner.gif)
 
 # 🚀 100 Days of Python Challenge
 
