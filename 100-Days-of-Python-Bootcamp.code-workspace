@@ -4,5 +4,21 @@
 			"path": "."
 		}
 	],
-	"settings":
+	"settings": {
+		"python.pythonPath": "/usr/bin/python3",
+		"python.linting.pylintEnabled": true,
+		"python.linting.enabled": true,
+		"python.linting.pylintPath": "/usr/bin/pylint3",
+		"python.linting.pylintArgs": [
+			"--disable=C0114",
+			"--disable=C0115",
+			"--disable=C0116"
+		],
+		"python.formatting.provider": "black",
+		"python.formatting.blackPath": "/usr/bin/black",
+		"python.formatting.blackArgs": [
+			"--line-length",
+			"100"
+		]
+	}
 }
